@@ -122,8 +122,8 @@ p{
             }
 
             .map{
-              padding-left: 0;
-              padding-right:100px;
+              padding-left:0px;
+              padding-right: 50px;
             }
 
     }
@@ -145,8 +145,8 @@ p{
           }
 
           .map{
-            padding-left: 0;
-            padding-right:100px;
+            padding-left:0px;
+            padding-right: 50px;
           }
     }
 
@@ -154,10 +154,42 @@ p{
       .container {
         max-width: 960px;
       }
+      .mapouter{
+
+        height:200px;
+        width:300px;
+        }
+
+        .gmap_canvas
+        {
+          height:200px;
+          width:300px;
+          }
+
+          .map{
+            padding-left:0px;
+            padding-right: 50px;
+          }
     }
 
     @media (max-width: 1200px) {
       .container {
         max-width: 1140px;
       }
+      .mapouter{
+
+        height:200px;
+        width:300px;
+        }
+
+        .gmap_canvas
+        {
+          height:200px;
+          width:300px;
+          }
+
+          .map{
+            padding-left:0px;
+            padding-right: 50px;
+          }
     }
