@@ -122,11 +122,8 @@ p{
             }
 
             .map{
-              padding-left:500px;
-            }
-            .img3{
-              height: 600px;
-              width:500px;
+              padding-left:0px;
+              padding-right: 50px;
             }
 
     }
@@ -148,11 +145,12 @@ p{
           }
 
           .map{
-            padding-left:500px;
+            padding-left:0px;
+            padding-right: 50px;
           }
           .img3{
-            height: 600px;
-            width:500px;
+            height: 300px;
+            width:200px;
           }
     }
 
@@ -173,11 +171,8 @@ p{
           }
 
           .map{
-            padding-left:500px;
-          }
-          .img3{
-            height: 600px;
-            width:500px;
+            padding-left:0px;
+            padding-right: 50px;
           }
     }
 
@@ -198,11 +193,7 @@ p{
           }
 
           .map{
-            padding-left:500px;
-            
-          }
-          .img3{
-            height: 600px;
-            width:500px;
+            padding-left:0px;
+            padding-right: 50px;
           }
     }
