@@ -5,18 +5,20 @@ body{
 p{
 
 }
-.colored{
 
-}
 .img{
-  align:left;
+  align:center;
   width: 100%;
   height: 600px;
-  border: 10px solid ;
-  border: 3px solid #dee2e6
+
+  border: 5px solid #dee2e6;
+
+
 
 
 }
+
+
 .container{
   text-align: center;
 }
@@ -101,4 +103,59 @@ p{
       text-align: center;
       padding-top:20px;
       text-shadow: 2px 2px #0e9aa7;
+    }
+
+    @media (max-width: 576px) {
+      .container {
+        max-width: 540px;}
+
+        .mapouter{
+
+          height:200px;
+          width:300px;
+          }
+
+          .gmap_canvas
+          {
+            height:200px;
+            width:300px;
+            }
+
+            .map{
+              padding-left: 100px;
+            }
+
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+      .mapouter{
+
+        height:200px;
+        width:300px;
+        }
+
+        .gmap_canvas
+        {
+          height:200px;
+          width:300px;
+          }
+
+          .map{
+            padding-left: 100px;
+          }
+    }
+
+    @media (max-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
     }
