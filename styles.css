@@ -122,8 +122,7 @@ p{
             }
 
             .map{
-              padding-left:0;
-            padding-right: 0;
+               padding-left:100;
             }
 
     }
@@ -145,8 +144,7 @@ p{
           }
 
           .map{
-            padding-left:0;
-            padding-right: 0;
+             padding-left:100;
           }
           .img3{
             height: 300px;
@@ -171,8 +169,7 @@ p{
           }
 
           .map{
-            padding-left:0;
-            padding-right: 0;
+             padding-left:100;
           }
     }
 
@@ -193,7 +190,7 @@ p{
           }
 
           .map{
-            padding-left:0;
-            padding-right: 0;
+            padding-left:100;
+            
           }
     }
