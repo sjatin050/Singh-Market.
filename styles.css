@@ -142,7 +142,7 @@ p{
               padding-right: 50px;
             }
             .con1{
-              padding-left:100px;
+                padding-left:10rem;
             }
     }
 
@@ -171,7 +171,7 @@ p{
             width:200px;
           }
           .con1{
-            padding-left:100px;
+              padding-left:10rem;
           }
     }
 
@@ -196,7 +196,7 @@ p{
             padding-right: 100px;
           }
           .con1{
-            padding-left:100px;
+              padding-left:10rem;
           }
     }
 
@@ -221,6 +221,6 @@ p{
             padding-right: 50px;
           }
           .con1{
-            padding-left:100px;
+            padding-left:10rem;
           }
     }
