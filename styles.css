@@ -1,3 +1,5 @@
+
+
 body{
   background-color:#aacfcf;
   font-family: 'Montserrat', sans-serif;
@@ -12,19 +14,19 @@ p{
   height: 600px;
 
   border: 10px solid #dee2e6;
-
-
-
-
 }
 
-
-.container{
-  text-align: center;
-}
 .container-fluid{
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+
 }
+.foot{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
 .shop-img{
   width: 50%;
   height: 50%;
@@ -38,6 +40,10 @@ p{
   text-align: center;
   padding:20px;
 
+}
+.con1{
+  text-align:justify;
+  padding-left:200px;
 }
 .img3{
   width:20%;
@@ -104,7 +110,17 @@ p{
       padding-top:20px;
       text-shadow: 2px 2px #0e9aa7;
     }
+.foot{
+  background-color: red;
+}
 
+
+.themed-container {
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 123, 255, .15);
+  border: 1px solid rgba(0, 123, 255, .2);
+}
     @media (max-width: 576px) {
       .container {
         max-width: 540px;}
@@ -122,9 +138,12 @@ p{
             }
 
             .map{
-               padding-left:100;
+              padding-left:0px;
+              padding-right: 50px;
             }
-
+            .con1{
+              padding-left:60px;
+            }
     }
 
     @media (max-width: 768px) {
@@ -144,11 +163,15 @@ p{
           }
 
           .map{
-             padding-left:100;
+            padding-left:0px;
+            padding-right: 50px;
           }
           .img3{
             height: 300px;
             width:200px;
+          }
+          .con1{
+            padding-left:60px;
           }
     }
 
@@ -169,7 +192,11 @@ p{
           }
 
           .map{
-             padding-left:100;
+            padding-left:0px;
+            padding-right: 100px;
+          }
+          .con1{
+            padding-left:60px;
           }
     }
 
@@ -190,7 +217,10 @@ p{
           }
 
           .map{
-            padding-left:100;
-            
+            padding-left:0px;
+            padding-right: 50px;
+          }
+          .con1{
+            padding-left:60px;
           }
     }
