@@ -87,12 +87,6 @@ p{
 
     }
 
-    .bottom-container{
-      position:sticky;
-      background-color:;
-      padding: 50px 0 20px;
-      margin: 0;
-      border: 0;
 
 
 
@@ -114,8 +108,10 @@ p{
   background-color: red;
 }
 .icon1{
+
   padding: 20px;
   padding-right: 5rem;
+  float:left;
 
 }
 .con2{
@@ -131,7 +127,9 @@ p{
 }
     @media (max-width: 576px) {
       .container {
-        max-width: 540px;}
+        max-width: 540px;
+        padding-left: 50px;
+      }
 
         .mapouter{
 
@@ -157,6 +155,7 @@ p{
     @media (max-width: 768px) {
       .container {
         max-width: 720px;
+        padding-left: 50px;
       }
       .mapouter{
 
@@ -186,6 +185,7 @@ p{
     @media (max-width: 992px) {
       .container {
         max-width: 960px;
+        padding-left: 50px;
       }
       .mapouter{
 
@@ -197,6 +197,7 @@ p{
         {
           height:200px;
           width:300px;
+
           }
 
           .map{
@@ -212,6 +213,7 @@ p{
     @media (max-width: 1200px) {
       .container {
         max-width: 1140px;
+        padding-left: 50px;
       }
       .mapouter{
 
@@ -223,6 +225,7 @@ p{
         {
           height:200px;
           width:300px;
+
           }
 
           .map{
